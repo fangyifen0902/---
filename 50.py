@@ -1,0 +1,6 @@
+s=set(['John','Mary','Tina','Fiona','Claire','Eva','Ben','Bill','Bert'])
+s1=set(['John','Mary','Fiona','Claire','Ben','Bill'])
+s3=set(['Mary','Fiona','Claire','Eva','Ben'])
+print("英文及數學都及格",s1&s3)
+print("數學不及格",s-s3)
+print("英文及格且學不及格",s1&s-s3)
